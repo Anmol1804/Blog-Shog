@@ -1,0 +1,246 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+html {
+    color: #222;
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+  overflow: hidden;
+}
+
+#main-header {
+  height: 50px;
+  background-color: #333;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+#branding {
+  float: left;
+  width: 50%;
+}
+
+#branding h1 {
+  padding: 5px 0 0 70px;
+  color: white;
+  margin: 0 !important;
+}
+
+#branding img {
+  position: absolute;
+  width: 55px;
+  height: auto;
+}
+
+#main-nav {
+  float: right;
+  width: 50%;
+  padding-top: 12px;
+}
+
+#main-nav ul {
+  float: right;
+}
+
+#main-nav li {
+  float: left;
+  padding: 3px 5px 0 5px;
+  margin: 0 15px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  list-style: square;
+}
+
+#main-nav a {
+  color: white;
+}
+
+#content {
+  float: left;
+  width: 63%;
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 0 20px 20px 20px;
+}
+
+article{
+  border-bottom: 1px dotted grey;
+  padding: 10px 0 20px 0;
+}
+
+article img {
+  width: 100%;
+}
+
+article h2 {
+  margin: 0;
+  padding-top: 10px;
+}
+
+article .meta{
+  margin: 10px 0 10px 0;
+  padding: 5px;
+  background: gray;
+  color: white;
+}
+
+article .readmore {
+  background: #f4f4f4;
+  color: black;
+  width: 97%;
+  display: block;
+  text-align: center;;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+article .readmore:hover {
+  background: #ccc;
+}
+
+#sidebar {
+  float: right;
+  width: 30%;
+}
+
+.search {
+  float: right;
+}
+
+.search input[type = "search"]{
+  border: #000 1px solid;
+  border-radius: 5px;
+  height: 20px;
+  width: 85%;
+  padding: 3px;
+  float: left;
+}
+
+#sub-nav li {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px 0 5px 0;
+  border-bottom: dotted 1px #333;
+}
+
+#sub-nav a {
+  color: #333;
+}
+
+#sub-nav a:hover,#sub-nav a.active{
+  color: #ff0000;
+}
+
+.ad img{
+  padding-top: 10px;
+  width: 100%;
+}
+
+#main-footer {
+  background: #333;
+  color: white;
+  min-height: 180px;
+  margin-top: 20px;
+  overflow: auto;
+}
+
+#main-footer a{
+  color: #fff;
+  text-decoration: none;
+}
+
+#main-footer .copy{
+  padding: 20px 0 0 0;
+}
+
+#main-footer .footer-left{
+  float: left;
+  width: 30%;
+}
+
+#main-footer .footer-right {
+  float: right;
+  width: 70%;
+}
+
+#main-footer .footer-nav {
+  float: left;
+  font-size: 15px;
+  width: 37%;
+}
+
+#main-footer .footer-nav li {
+  padding: 5px 0 5px 0;
+  border-bottom: dotted #666 1px;
+}

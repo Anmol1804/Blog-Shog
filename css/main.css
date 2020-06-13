@@ -68,6 +68,7 @@ h2 {
 ul {
   margin: 0;
   padding: 0;
+  list-style-type: none;
 }
 
 .container {
@@ -96,7 +97,7 @@ ul {
 
 #branding img {
   position: absolute;
-  width: 55px;
+  width: 60px;
   height: auto;
 }
 
@@ -116,12 +117,14 @@ ul {
   margin: 0 15px;
   font-size: 15px;
   text-transform: uppercase;
-  font-weight: bold;
   list-style: square;
+  font-weight: bold;
+  color: white;
 }
 
 #main-nav a {
   color: white;
+  text-decoration:
 }
 
 #content {
@@ -133,7 +136,7 @@ ul {
 }
 
 article{
-  border-bottom: 1px dotted grey;
+  border-bottom: 1px dotted #ccc;
   padding: 10px 0 20px 0;
 }
 
@@ -151,6 +154,10 @@ article .meta{
   padding: 5px;
   background: gray;
   color: white;
+}
+
+article .meta span {
+  float: right;
 }
 
 article .readmore {
@@ -179,12 +186,16 @@ article .readmore:hover {
 }
 
 .search input[type = "search"]{
-  border: #000 1px solid;
+  border: #ccc 1px solid;
   border-radius: 5px;
   height: 20px;
   width: 85%;
   padding: 3px;
   float: left;
+}
+
+#sub-nav{
+  padding: 20px 0 20px 0;
 }
 
 #sub-nav li {
@@ -203,7 +214,6 @@ article .readmore:hover {
 }
 
 .ad img{
-  padding-top: 10px;
   width: 100%;
 }
 
@@ -215,9 +225,12 @@ article .readmore:hover {
   overflow: auto;
 }
 
-#main-footer a{
+#main-footer a {
   color: #fff;
-  text-decoration: none;
+}
+
+#main-footer a:hover {
+  color: yellow;
 }
 
 #main-footer .copy{
@@ -237,10 +250,53 @@ article .readmore:hover {
 #main-footer .footer-nav {
   float: left;
   font-size: 15px;
-  width: 37%;
+  width: 31%;
+  padding: 20px 0 20px 0;
+  margin-right: 10px;
 }
 
 #main-footer .footer-nav li {
   padding: 5px 0 5px 0;
   border-bottom: dotted #666 1px;
+}
+
+#comments {
+  margin-top: 20px;
+}
+
+.comment-left{
+  float: left;
+  width: 8%;
+}
+
+.comment-left img{
+  width: 100%;
+}
+
+.comment-right {
+  float: right;
+  width: 90%;
+}
+
+.comment-form {
+  margin-top: 20px;
+  padding: 5px 20px 10px 20px;
+  background: #333;
+  color: white;
+  border-radius: 10px;
+}
+
+.comment-form input[type="text"],.comment-form input[type="email"] {
+  border: #ccc 1px solid;
+  border-radius: 5px;
+  height: 20px;
+  padding: 3px;
+  width: 97%;
+}
+
+.comment-form textarea {
+  border: #ccc 1px solid;
+  border-radius: 5px;
+  padding: 3px;
+  width: 97%;
 }

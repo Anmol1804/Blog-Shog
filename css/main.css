@@ -182,7 +182,7 @@ article .readmore:hover {
 }
 
 .search {
-  float: right;
+  float: left;
 }
 
 .search input[type = "search"]{
@@ -215,6 +215,8 @@ article .readmore:hover {
 
 .ad img{
   width: 100%;
+  margin-bottom: 20px;
+
 }
 
 #main-footer {
@@ -299,4 +301,99 @@ article .readmore:hover {
   border-radius: 5px;
   padding: 3px;
   width: 97%;
+}
+
+.add-form input[type="text"] {
+  border: #ccc 1px solid;
+  border-radius: 5px;
+  height: 20px;
+  padding: 3px;
+  width: 97%;
+}
+
+.add-form select {
+  border: #ccc 1px solid;
+  border-radius: 5px;
+  height: 30px;
+  padding: 3px;
+  width: 98%;
+}
+
+.add-form textarea {
+  border: #ccc 1px solid;
+  border-radius: 5px;
+  padding: 3px;
+  width: 97%;
+}
+
+/* ==========================================================================
+  Media Queries
+  ========================================================================== */
+
+@media only screen and (max-width : 900px) {
+  #branding h1{
+    display: none;
+  }
+
+  #branding{
+    width: 20%;
+  }
+
+  #main-nav{
+    width: 80%;
+  }
+
+  #content {
+    float: none;
+    width: 88%;
+  }
+
+  #sidebar {
+    float: none;
+    width: 100%;
+  }
+
+  #main-footer .footer-left,#main-footer .footer-right {
+    float: none;
+    width: 100%;
+  }
+
+  #main-footer .footer-nav {
+    float: none;
+    width: 100%;
+  }
+
+  #main-footer .footer-nav li {
+    padding: 5px 0 5px 0;
+    border-bottom: dotted #666 1px;
+  }
+
+  #main-footer .copy {
+    text-align: center;
+  }
+
+}
+
+@media only screen and (max-width : 580px) {
+  #main-nav li {
+    padding: 3px 3px 0 3px;
+    margin: 0 5px;
+    font-size: 13px;
+    list-style: none;
+  }
+
+  #content {
+    float: none;
+    width: 88%;
+  }
+
+}
+
+
+
+@media print,
+      (-o-min-device-pixel-ratio: 5/4),
+      (-webkit-min-device-pixel-ratio: 1.25),
+      (min-resolution: 120dpi) {
+
 }
